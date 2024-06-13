@@ -17,5 +17,5 @@ jobs:
 
     - name: Build and push Docker image
       run: |
-        docker build -t ghcr.io/<REPLACE WITH YOUR ORG NAME>/custom-database-layer:2.0 .
-        docker push ghcr.io/<REPLACE WITH YOUR ORG NAME>/custom-database-layer:2.0
+        docker build -t ghcr.io/zevanreg/custom-database-layer:2.0 .
+        docker push ghcr.io/zevanreg/custom-database-layer:2.0
